@@ -1,5 +1,6 @@
 package com.practice.hash;
 
+import java.util.Arrays;
 import java.util.HashMap;
 
 public class Lev1_PhoneBook {
@@ -15,11 +16,13 @@ public class Lev1_PhoneBook {
 
         for(String s : phone_book) {
             for(int i=0; i<s.length(); i++) {
+                // 전화번호 길이만큼 가지고 서로 일치하는지 확인
                 if(map.containsKey(s.substring(0,i))) {
                     answer = false;
                 }
             }
         }
         return answer;
+
     }
 }

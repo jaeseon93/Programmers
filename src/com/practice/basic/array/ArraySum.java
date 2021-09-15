@@ -20,7 +20,7 @@ public class ArraySum {
         /**
          *  방법 2
          */
-        
+
         int mod = 0;
         int sum = 0;
         while(n!=0) {

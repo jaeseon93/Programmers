@@ -25,5 +25,19 @@ public class Main {
             }
             System.out.println();
         }
+
+
+        /**
+         * Scanner에 받은 숫자 두개를 더하기
+         * sum 1+2
+         */
+
+        Scanner sca = new Scanner(System.in);
+
+        int a = sca.nextInt();
+        int b = sca.nextInt();
+        int result = a+b;
+        System.out.println("result: "+ result);
+
     }
 }
