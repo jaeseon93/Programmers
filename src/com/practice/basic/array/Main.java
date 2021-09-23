@@ -10,5 +10,9 @@ public class Main {
         boolean checkLength = arr2.solution(new int[]{4,1,3,2});
         System.out.println("checkLength :"+ checkLength);
 
+        IncreaseXandhadN arr3 = new IncreaseXandhadN();
+        long[] increasexn = arr3.solution(2, 5);
+        System.out.println("increasexn:" + increasexn);
+
     }
 }
