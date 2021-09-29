@@ -1,6 +1,6 @@
-package com.practice.basic.array;
+package com.practice.test;
 
-public class ArraySum {
+public class NumSum {
     public int solution(int n) {
         int answer = 0;
 
