@@ -6,6 +6,13 @@ public class Main {
     public static void main(String[] args) {
 
         /**
+         *  최대공약수 최소공배수 구하기
+         */
+        GCDLCM gcdlcm = new GCDLCM();
+        gcdlcm.solution(2,5);
+
+
+        /**
          *  1에서 100까지 더하기
          */
         int sum = 0;
@@ -56,7 +63,6 @@ public class Main {
         for(int i=0; i<scan; i++ ) {
             for(int j=0; j <= i; j++) {
                 System.out.print(ascii);
-//                ascii = ascii + ascii;
             }
             System.out.println();
         }
@@ -89,6 +95,8 @@ public class Main {
             }
             System.out.println("");
         }
+
+
 
     }
 }
