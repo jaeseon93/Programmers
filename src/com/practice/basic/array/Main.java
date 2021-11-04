@@ -34,5 +34,13 @@ public class Main {
         CountDepForBudget arr4 = new CountDepForBudget();
         int countDep = arr4.solution(new int[]{1, 3, 2, 5, 4}, 9);
         System.out.println("지원해 줄 수 있는 부서수 : " + countDep);
+
+        /**
+         *  음양 더하기
+         */
+        SumNegativePositive arr5 = new SumNegativePositive();
+        int sumNegPos = arr5.solution(new int[]{4, 7, 12}, new boolean[]{true, false, true});
+        System.out.println("음양의 합 : " + sumNegPos);
+
     }
 }
