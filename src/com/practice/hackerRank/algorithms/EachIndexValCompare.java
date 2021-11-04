@@ -3,7 +3,7 @@ package com.practice.hackerRank.algorithms;
 import java.util.ArrayList;
 import java.util.List;
 
-public class EacnIndexValCompare {
+public class EachIndexValCompare {
 
     public static List<Integer> compareTriplets(List<Integer> list1, List<Integer> list2) {
         // Write your code here
