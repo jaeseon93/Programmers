@@ -49,5 +49,16 @@ public class Main {
         DotProduct arr6 = new DotProduct();
         int dot = arr6.solution(new int[]{1, 2, 3, 4}, new int[]{-3, -1, 0, 2});
         System.out.println("dot :" + dot);
+
+        /**
+         *  문자열 내마음대로 정렬하기
+         *  n : 정렬해야하는 인덱스 값
+         */
+
+        StringsArray arr7 = new StringsArray();
+        String[] stringArr = arr7.solution(new String[]{"abce", "abcd", "cdx"}, 2);
+        for(String str : stringArr) {
+            System.out.println("정렬 :" + str);
+        }
     }
 }
