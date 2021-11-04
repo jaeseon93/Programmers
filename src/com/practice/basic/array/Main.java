@@ -42,5 +42,12 @@ public class Main {
         int sumNegPos = arr5.solution(new int[]{4, 7, 12}, new boolean[]{true, false, true});
         System.out.println("음양의 합 : " + sumNegPos);
 
+        /**
+         * 내적
+         * 배열의 자릿값끼리 곱해서 총 수를 더하기
+         */
+        DotProduct arr6 = new DotProduct();
+        int dot = arr6.solution(new int[]{1, 2, 3, 4}, new int[]{-3, -1, 0, 2});
+        System.out.println("dot :" + dot);
     }
 }
